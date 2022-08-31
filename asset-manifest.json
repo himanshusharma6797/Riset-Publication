@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/risetpub/static/css/main.b63eb1c9.css",
+    "main.js": "/risetpub/static/js/main.23cfed58.js",
+    "static/js/787.2f97d048.chunk.js": "/risetpub/static/js/787.2f97d048.chunk.js",
+    "static/media/reserch-guidance.jpg": "/risetpub/static/media/reserch-guidance.749626d92b82fa904352.jpg",
+    "static/media/web-of0science.jpg": "/risetpub/static/media/web-of0science.3bf52a01d6fe45dfcad2.jpg",
+    "static/media/scopus-discontinued-journals.jpg": "/risetpub/static/media/scopus-discontinued-journals.86c96cc242335e124b8e.jpg",
+    "static/media/hec.jpg": "/risetpub/static/media/hec.c8202c18ae9ef8b09abe.jpg",
+    "static/media/conference.jpg": "/risetpub/static/media/conference.59d64c85c2f05f43af2c.jpg",
+    "static/media/scopus-journals.jpg": "/risetpub/static/media/scopus-journals.23f30568027d4c89fbfa.jpg",
+    "static/media/about-us.jpg": "/risetpub/static/media/about-us.727582c0f459046e4679.jpg",
+    "static/media/reserch-publication.jpg": "/risetpub/static/media/reserch-publication.3ee17fa3feaa6d82fbdd.jpg",
+    "static/media/whatsapp.svg": "/risetpub/static/media/whatsapp.97a1261d218b54070ae4febf725d0e15.svg",
+    "index.html": "/risetpub/index.html",
+    "static/media/twitter.svg": "/risetpub/static/media/twitter.7ac2a38d4c0968ebee426375bde39051.svg",
+    "static/media/linkedin.svg": "/risetpub/static/media/linkedin.cbf3eac958ddc5dcb0f7d9f741becd11.svg",
+    "static/media/facebook.svg": "/risetpub/static/media/facebook.13aa0acfc52eb382665ff1e8737d69fc.svg",
+    "static/media/top-arrow.svg": "/risetpub/static/media/top-arrow.b5f1bec6109f60629936a54d8b397c2a.svg",
+    "main.b63eb1c9.css.map": "/risetpub/static/css/main.b63eb1c9.css.map",
+    "main.23cfed58.js.map": "/risetpub/static/js/main.23cfed58.js.map",
+    "787.2f97d048.chunk.js.map": "/risetpub/static/js/787.2f97d048.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b63eb1c9.css",
+    "static/js/main.23cfed58.js"
+  ]
+}
