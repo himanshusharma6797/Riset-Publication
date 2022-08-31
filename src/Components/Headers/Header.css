@@ -1,0 +1,140 @@
+.hederTop{
+    background-color: #3b98e3;
+    color: white;
+}
+.topHeaderLinks{
+    margin-right: 1rem;
+}
+
+.navbar>.container-fluid{
+    display: flex !important;
+    flex-flow: column;
+    align-items: flex-start !important;
+}
+.navbar-brand{
+    font-size: 2.5rem !important;
+    height: 4vh !important;
+}
+.navbar-brand:hover{
+    color: rgba(0, 0, 0, 0.589) !important;
+}
+#navbarSupportedContent{
+    align-items: stretch !important;
+    width: 100% !important;
+}
+.navBorder{
+    width: 100% !important;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.navLinkHover:hover{
+    color: #3b98e3 !important;
+}
+
+.rightMenu{
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+.dropdownMenu{
+    display: none;
+    position: absolute;
+    min-width: 10rem;
+    z-index: 1;
+}
+.rightMenu:hover .dropdownMenu{
+    display: block;
+}
+
+.hamburgerMenu{
+    width: 2.5rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.hamburgerMenu span{
+    width: 80%;
+    border: 2px solid black;
+    transition: 0.3s;
+    background-color: #000;
+}
+.hamburgerMenu span:nth-child(2){
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 10px;
+}
+.hamburgerMenu:hover span{
+    margin-left: 0;
+}
+/* drop down under dropdown in header */
+.dropdownUnder:hover .dropdownMenu2{
+    display: block;
+    position:relative;
+    top: 0rem;
+    right: -12rem;
+}
+.widthFull{
+    width: 100%;
+}
+
+
+/* header slidebar css */
+.modalBox, .overlayering {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+.overlayering {
+    background: rgba(49,49,49,0.8);
+}
+.modalContent {
+    position: absolute;
+    right: -215px;
+    top: 356px;
+    height: 100vh;
+    width: 30%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #F0F0F0;
+    padding: 1rem 1.75rem;
+    border-left: .5rem solid #9FC9EC;
+    transition: 0.9sec;
+}
+.modalContent h2{
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.modalContent p{
+    background-color: white;
+    padding: .5rem;
+}
+
+.closeModal {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 700;
+    top: 10px;
+    right: 10px;
+    border: 0px;
+    height: 0rem;
+}
+
+
+@media (max-width: 991.5px) {
+    .navBorder{
+        /* width: 100% !important; */
+        border-top: 0px solid #000;
+        border-bottom: 0px solid #000;
+    }
+    .hamburgerMenu{
+        display: none;
+    }
+}

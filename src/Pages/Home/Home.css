@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Risque&display=swap');
+
+.sectionMain{
+    margin-bottom: 3rem;
+}
+.heading{
+    font-family: 'Risque', cursive;
+    font-weight: 600;
+    color: #92840A;
+    text-align: center;
+    font-size: 2rem;
+}
+/* images */
+.confrenceFlex{
+    display: flex;
+    justify-content: center; 
+    flex-flow: column;
+    align-items: center;
+}
+.confrenceImage{
+    height: 11rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.guidanceImage{
+    height: 5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.guidanceImage:hover{
+    height: 4.5rem;
+    transition: 0.3s;
+    margin-bottom: 2rem;
+}
+.publicationImage{
+    height: 6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.publicationImage:hover{
+    height: 5.5rem;
+    transition: 0.3s;
+    margin-bottom: 2rem;
+}
+.width33percent{
+    width: 33%;
+}
+.roundedNew{
+    border-radius: 1rem;
+}
+
+.imageCaption{
+    color: #488f47;
+    text-decoration: none;
+}
+.list{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #488f47;
+}
+.listPera{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #488f47;
+
+}
+.listBlock{
+    background-color: #F2F3EA;
+    padding: 1rem 2.5rem 1.7rem 4rem;
+}
+.aboutImage{
+    height: 15rem;
+}
+.aboutListWithImage{
+    display: flex;
+    flex-flow: row;
+}
+.sectionAboutUs{
+    margin-bottom: 10rem;
+}
+
+.heightWidthCircleImages{
+    height: 3.75rem;
+    width: 3.75rem;
+    object-fit: cover;
+}
+h5{
+    color: #D84D4D;
+}
+.circleContainers{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    height: 8rem;
+    justify-content: space-around;
+    width: 33%;
+}
+.circleContainersTwo{
+    width: 25%;
+}
+.sectionJournals{
+    margin-bottom: 10rem;
+}
+.termsOfPubBlock{
+    padding-top: 1rem;
+    background-color: #F2F3EA;
+    padding-left: 1rem;
+    padding-right: 1.7rem;
+}
+
+.followUS{
+    color: #A136C8;
+    font-weight: 600;
+    margin: 1.5rem;
+}
+.logoHeight{
+    height: 3rem;
+    margin: .15rem;
+    cursor: pointer;
+}
+.sectionFollowUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.sectionFollowUs{
+    margin-top: 10rem;
+}
+
+/* responsive */
+@media (max-width: 991.5px) {
+    .displayOfGuidanceAndPublication{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .textAlignCenter{
+        text-align: center;
+    }
+    .aboutListWithImage{
+        flex-flow: column;
+    }
+}
+
+/* animations */
+.confrenceImage:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }

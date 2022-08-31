@@ -1,0 +1,14 @@
+
+.listOfPP{
+    color: #38B679;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    list-style-type: "> ";
+}
+.headingOfLists{
+    color: #E36EE4;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}

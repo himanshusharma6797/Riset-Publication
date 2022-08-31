@@ -1,0 +1,37 @@
+.whatsappLogo{
+    height: 2.26rem;
+}
+.whatsappLogoContainer{
+    background-color: #51CD5E;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
+    cursor: pointer;
+}
+
+.WhatsAppUs{
+    background-color: #51CD5E;
+    width: 7rem;
+    text-align: center;
+}
+.WhatsAppUsDiv{
+    width: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 3.3rem;
+    bottom: 0.8rem;
+}
+.whatsappLink{
+    color: white;
+    text-decoration: none;
+} 
+.whatsappLink:hover{
+    color: white;
+}
